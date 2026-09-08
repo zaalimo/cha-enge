@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap');
+
+/* 2. نظام الألوان والمتغيرات (:root) */
+:root {
+  /* Light Mode */
+  --bg-main-light: #FAF5F5;
+  --bg-sections-light: rgba(255, 255, 255, 0.5);
+  --bg-cards-light: #FDF7F7;
+  --primary-light: #9E5B6E;
+  --btn-border-hover-light: #804353;
+  --text-primary-light: #1F2937;
+  --text-secondary-light: #4B5563;
+  --border-light: #FCE7F3;
+
+  /* Font Families */
+  --font-almarai: 'Almarai', sans-serif;
+  --font-cairo: 'Cairo', sans-serif;
+}
+
+.dark, [data-theme="dark"] {
+  /* Dark Mode */
+  --bg-main-dark: #1A1C23;
+  --bg-sections-dark: #222530;
+  --bg-cards-dark: #2A2E3D;
+  --text-titles-dark: #F1F5F9;
+  --text-primary-dark: #E2E8F0;
+  --text-secondary-dark: #CBD5E1;
+  --border-dark: rgba(148, 163, 184, 0.3);
+  --btn-grad-start-dark: #94A3B8;
+  --btn-grad-end-dark: #DB2777;
+  --logo-grad-start-dark: #F1F5F9;
+  --logo-grad-end-dark: #CBD5E1;
+}
+
